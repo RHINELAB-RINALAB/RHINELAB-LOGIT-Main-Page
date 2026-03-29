@@ -22,11 +22,12 @@ build:
       - public
   tags:
     - gitlab-org-docker
- 
 pages:
   stage: deploy
+  dependencies:
+    - build
   script:
-    - echo "Deploying to GitLab Pages... fuck"
+    - echo "Deploying Pages"
   artifacts:
     paths:
-      - public
+      - public/
