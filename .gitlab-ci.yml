@@ -26,7 +26,7 @@ build:
 pages:
   stage: deploy
   script:
-    - echo "Deploying to GitLab Pages..."
+    - echo "Deploying to GitLab Pages... fuck"
   artifacts:
     paths:
       - public
