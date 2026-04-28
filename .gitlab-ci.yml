@@ -1,17 +1,18 @@
 stages:
   - build
   - deploy
- 
+
 image: node:22
-cache: # Cache modules in between jobs
+
+cache:
   key: $CI_COMMIT_REF_SLUG
   paths:
     - .npm/
- 
+
 build:
   stage: build
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "v4"'
+    - if: '$CI_COMMIT_REF_NAME == "main"'
   before_script:
     - hash -r
     - npm ci --cache .npm --prefer-offline
@@ -22,12 +23,16 @@ build:
       - public
   tags:
     - gitlab-org-docker
+
 pages:
   stage: deploy
-  dependencies:
-    - build
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "main"'
+  needs:
+    - job: build
+      artifacts: true
   script:
     - echo "Deploying Pages"
   artifacts:
     paths:
-      - public/
+      - public

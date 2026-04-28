@@ -1,6 +1,11 @@
 ---
-title: Welcome to Quartz
+title: RHINELAB-RINALAB Main Page
 ---
+Main page of the RHINELAB-RINALAB laboratory documentation. For now, there is nothing much, but I will soon add some documentations of `git` later, for example. 
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+
+
+
+
+
