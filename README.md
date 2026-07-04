@@ -1,4 +1,4 @@
-# RHINELAB-RINALAB CORE
+## RHINELAB-RINALAB, RHINE@ONIG-01 
 
-Core documentation platform. Waiting for fixture and analysis, really, right now there is nothing before the `gitlab` CI-CD flow is active. In development, that is. Updated the CI. 
+Core documentation and encyclopaedia system for **physics domain** of RHINELAB. Not much can be said otherwise. 
 
