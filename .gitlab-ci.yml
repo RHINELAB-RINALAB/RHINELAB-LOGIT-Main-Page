@@ -14,7 +14,7 @@ cache:
 build:
   stage: build
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "build"'
+    - if: '$CI_COMMIT_REF_NAME == "main"'
   before_script:
     - hash -r
     - npm ci --cache .npm --prefer-offline
@@ -28,7 +28,7 @@ build:
 pages:
   stage: deploy
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "build"'
+    - if: '$CI_COMMIT_REF_NAME == "main"'
   script:
     - echo "Deploying to GitLab Pages..."
   artifacts:
