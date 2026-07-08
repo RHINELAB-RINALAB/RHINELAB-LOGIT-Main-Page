@@ -2,13 +2,6 @@ stages:
   - build
   - deploy
 
-# Global workflow rules control pipeline generation before any jobs evaluate
-workflow:
-  rules:
-    - if: '$CI_COMMIT_MESSAGE == "build"'
-      when: always
-    - when: never
-
 image: node:24
 cache:
   - key: npm-$CI_COMMIT_REF_SLUG
@@ -20,6 +13,8 @@ cache:
 
 build:
   stage: build
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "build"'
   before_script:
     - hash -r
     - npm ci --cache .npm --prefer-offline
@@ -32,6 +27,8 @@ build:
 
 pages:
   stage: deploy
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "build"'
   script:
     - echo "Deploying to GitLab Pages..."
   artifacts:
