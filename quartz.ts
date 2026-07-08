@@ -24,28 +24,17 @@ ExternalPlugin.Explorer({
   folderClickBehavior: "link",
   useSavedState: true,
   sortFn: (a, b) => {
-    // Execute priority checks when both intersecting nodes are directories
     if (a.isFolder && b.isFolder) {
       const weightA = folderOrderRecord[a.displayName.toLowerCase()] ?? 999
       const weightB = folderOrderRecord[b.displayName.toLowerCase()] ?? 999
-      
-      if (weightA !== weightB) {
-        return weightA - weightB
-      }
+      if (weightA !== weightB) return weightA - weightB
       return a.displayName.localeCompare(b.displayName)
     }
-
-    // Maintain native sorting paradigms by enforcing folders-first rules over files
     if (a.isFolder && !b.isFolder) return -1
     if (!a.isFolder && b.isFolder) return 1
-
-    // Default to natural alphanumeric evaluations for flat file trees
-    return a.displayName.localeCompare(b.displayName, undefined, {
-      numeric: true,
-      sensitivity: "base",
-    })
-  },
-});
+    return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: "base" })
+  }
+})
 
 
 // Ending
