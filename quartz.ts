@@ -18,7 +18,7 @@ const folderOrderRecord: Record<string, number> = {
   "Members": 7,
 }
 
-ExternalPlugin.Explorer({
+/*ExternalPlugin.Explorer({
   title: "Navigation system",
   folderDefaultState: "collapsed",
   folderClickBehavior: "link",
@@ -35,6 +35,7 @@ ExternalPlugin.Explorer({
     return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: "base" })
   }
 })
+  */
 
 
 // Ending
