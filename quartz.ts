@@ -15,8 +15,7 @@ const folderOrderRecord: Record<string, number> = {
   "Laboratory": 4,
   "Logistics": 5,
   "Documents": 6,
-  "Internal Information": 7,
-  
+  "Members": 7,
 }
 
 ExternalPlugin.Explorer({
