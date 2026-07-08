@@ -7,7 +7,7 @@ description: The main structural gatekeeper of the laboratory function. Don't wo
 
 This is the main page of the **RHINELAB-RINALAB laboratory documentation**, so customarily so, a welcome is said to be needed. Welcome to the main page. I am sure it would be very much helpful, planned of sort, to member of the laboratory itself in the future, as both a *model* of operation, and also a *central piece* of studies, information configuration, and bulletin of sort. The main page here works and function for this entire website, as the fundamental *repository* of which we will configure most of the expected contents, and functionalities of this site.
 
-If you want quick information, you can see [[RL.2. Laboratory Structure]] as the particular inquiry section, [[Named Laboratory]] for different laboratories in existence of RHINELAB, and [[PL.1. Introduction to the philosophy of RHINELAB]] for the most introduction to the content specified thereof for the philosophy section. For the surface contact information and so on, you can see them in [the frontmatter website](https://rhinelab.netlify.app/), or the more technical [back-end or so website](https://rhinelab-rinalab.github.io/). For planned details and contact, see [[Contact]]. 
+If you want quick information, you can see [[RL.2. Laboratory Structure]] as the particular inquiry section, [[UNIG - Named Laboratory]] for different laboratories in existence of RHINELAB, and [[PL.1. Introduction to the philosophy of RHINELAB]] for the most introduction to the content specified thereof for the philosophy section. For the surface contact information and so on, you can see them in [the frontmatter website](https://rhinelab.netlify.app/), or the more technical [back-end or so website](https://rhinelab-rinalab.github.io/). For planned details and contact, see [[Contact]]. 
 ## Intended contents
 1. Foundational resources of the laboratory. 
 2. Logistical denotation and summary of all logistics of the lab. 
@@ -31,23 +31,38 @@ In case you haven't read from the [front-facing website or so](https://rhinelab.
 
 In this website, you will find it as the central hub of operation of the entire lab, written down here, of organization, of whatever listed above in the functionalities, and of which is the living space, though detached from its many details, to coordinate different people together, and different worlds together at once. That means, basically, is that while it is a laboratory, our laboratory works and functions kind of, or rather particularly so, similar to how a fundamental institution operates, just without the money, and perhaps without the rhetoric often seen of institutional gravity thereof. We have, for example, **RHINE@MAPR**, the Mathematics and Physics Research Laboratory, and **RHINE@MTAIL**, the Modelling Theory and Theoretical Artificial Intelligence and Learning Theoretic Research Laboratory, which is perhaps *very pointed* of its intention and purpose. 
 
-Overtime, more information will be added, so please apologize if there are any missing packages, or so, of details inside this particular repository thereof. Because of the rate on operation, there will also be fairly lots of modification to be, as well as laboratory [[RL.1. Institutional Structure|Member Introduction]], for example, which will be shifted overtime. We then suggest you to *take the main general link*, if you wish instead, and move them instead of internal link inside this page. Contact information and so on will also be provided, and if you wish to inquire further, we are happy to present ample about of connections for you to dial in. 
-
+Overtime, more information will be added, so please apologize if there are any missing packages, or so, of details inside this particular repository thereof. Because of the rate on operation, there will also be fairly lots of modification to be, as well as laboratory [[RL.1. Institutional Structure|Member Introduction]], for example, which will be shifted overtime. We then suggest you to *take the main general link*, should you wish instead, and move them instead of internal link inside this page. Contact information and so on will also be provided, and if you wish to inquire further, we are happy to present ample about of connections for you to dial in. 
 ## Structure
-
 The following outlines the general shape and form of typical sitemap. Most of the content will be added later. Because of the fact that `quartz` works on [Obsidian.md](https://obsidian.md/), the linking and backlinks are *manually added*, so if there are any things missing, please send a notification or *issue* on GitLab for such matter. 
+> [!warning] Important classification
+> As of now, under such inquiry thereof the organization and main functional groups under strain of institutional insufficiency of scholars, the organization thereby activated or concentrated, are **RHINE@TAAI** (Theoretical and Applied Artificial Intelligence), **RHINE@MAPR** (Mathematics and Physis Research), **RHINE@LOGIT** (Logistical Infrastructure and Architecture), and **RHINE@MTAIL** (Modelling Theory and Artificial Intelligence, Learning-theoretic) functionals. 
 ### RHINE@CAD - Organization Descriptions
 The majority of them are in *philosophy* and conjectures there be of the laboratory. 
 #### General information
-[[RL.1. Institutional Structure]]
-[[RL.2. Laboratory Structure]]
-[[RL.2.1. Domain, Field, and Foundation]]
-[[RL.3. Members and Directorates]]
-[[RL.4. Document System]]
-[[RL.5. Project Systems]]
-[[RL.6. Logistical System]]
-[[RL.7. Research System]]
-[[RL.8. Research Activities]]
+1. [[RL.1. Institutional Structure]] - The organizational structural and operational framework of RHINELAB. 
+2. [[RL.2. Laboratory Structure]] - The concurrent operational structure and functional organizational reality of RHINELAB (Currently, we are in *phase I*). 
+3. [[RL.2.1. Domain, Field, and Foundation]]. 
+4. [[RL.3. Members and Directorates]]. 
+5. [[RL.3.1. Community Members and Directorates]]. 
+6. [[RL.4. Document System]]. 
+7. [[RL.5. Project Systems]]. 
+8. [[RL.6. Logistical System]]. 
+9. [[RL.7. Research System]]. 
+10. [[RL.8. Research Activities]]. 
+#### Guideline
+Guidelines are focused on *capable contents*. That is, contents that are of technical details or so bare minimum to present and operate inside the laboratory that is. For further details on such, please inquire the included *specialization documentation* of the matter. 
+1. [[Guideline - Core Infrastructure]] - Guideline for core infrastructure of the laboratory functions. 
+2. [[Guideline - How to use GitHub, GitLab, and Git]] - Guideline for technical version control system - `git` and the cloud platforms of GitHub and GitLab [^2]
+3. [[Guideline - How to Use OSF]] - OSF, Open Science Foundation, and many similar platforms of such function, guideline as stated of such. 
+#### Laboratory
+Listing for internal laboratories of the lab. 
+1. [[UNIG - Named Laboratory]] - *Universal Academic Research Group* administration and core laboratory functions. 
+2. [[ONIG Operational Group]] - **General (Academic) Research Group** classification system. 
+3. [[SNIG Operational Group]] - **Special (Academic) Research Group** classification system.
+4. [[ANIG Operational Group]] - **Abstract (Academic) Research Group** classification system.
+#### Logistics
+1. TBH
+#### Philosophy and Institutional Baseline
+1. TBH
 
-
-
+[^2]: Because of the generality and sufficient universality on technical standard of version control system, it is wise to see for even `Codeberg` and `Gitea`, such would still use and utilize the foundational infrastructure on backend of `git`, even if to say it allows for many reconfigured and flavoured version of said terms. As such, one of the many ways to utilize this fundamental function, such is to reduce burden on logistical systems, is to provide a lessen achievement of content in such way of learning the core infrastructure of RHINELAB. And for reference, `Gitea` is self-hosted. 

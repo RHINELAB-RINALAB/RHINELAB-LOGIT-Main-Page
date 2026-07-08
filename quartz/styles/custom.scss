@@ -1,3 +1,17 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// quartz/styles/custom.scss
+
+html {
+  // Quartz's default baseline is typically 16px (100%). 
+  // Bumping this scales all text elements proportionally.
+  font-size: 105%; 
+
+  // Optional: If you only want to target desktop layouts, wrap it in a media query
+  @media all and (min-width: 1200px) {
+    font-size: 110%;
+  }
+}
+

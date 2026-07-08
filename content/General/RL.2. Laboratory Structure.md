@@ -1,5 +1,5 @@
 ---
-title: Laboratory Structure and Formations
+title: RL.2. Laboratory Structure and Formations
 author: Fujimiya Amane
 tags:
   - Administration

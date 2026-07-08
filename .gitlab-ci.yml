@@ -1,7 +1,14 @@
 stages:
   - build
   - deploy
- 
+
+# Global workflow rules control pipeline generation before any jobs evaluate
+workflow:
+  rules:
+    - if: '$CI_COMMIT_MESSAGE == "build"'
+      when: always
+    - when: never
+
 image: node:24
 cache:
   - key: npm-$CI_COMMIT_REF_SLUG
@@ -10,7 +17,7 @@ cache:
   - key: plugins-$CI_COMMIT_REF_SLUG
     paths:
       - .quartz/plugins/
- 
+
 build:
   stage: build
   before_script:
@@ -22,7 +29,7 @@ build:
   artifacts:
     paths:
       - public
- 
+
 pages:
   stage: deploy
   script:
