@@ -19,12 +19,12 @@ const folderOrderRecord: Record<string, number> = {
   
 }
 
-ExternalPlugin.Explorer{{
-    title: "Navigation system",
-    folderDefaultState: "collapsed",
-    folderClickBehavior: "link",
-    useSavedState: true,
-    sortFn: (a, b) => {
+ExternalPlugin.Explorer({
+  title: "Navigation system",
+  folderDefaultState: "collapsed",
+  folderClickBehavior: "link",
+  useSavedState: true,
+  sortFn: (a, b) => {
     // Execute priority checks when both intersecting nodes are directories
     if (a.isFolder && b.isFolder) {
       const weightA = folderOrderRecord[a.displayName.toLowerCase()] ?? 999
@@ -46,7 +46,7 @@ ExternalPlugin.Explorer{{
       sensitivity: "base",
     })
   },
-}};
+});
 
 
 // Ending
