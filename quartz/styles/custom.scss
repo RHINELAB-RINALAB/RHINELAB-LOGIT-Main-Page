@@ -14,4 +14,32 @@ html {
     font-size: 110%;
   }
 }
+// ==========================================
+// Quartz Custom Typography Colors
+// ==========================================
 
+// --- LIGHT MODE CONFIGURATION ---
+:root[data-theme="light"] {
+  // A muted, earthy burnt orange (gentle but deep enough for light mode readability)
+  strong {
+    color: #c25927; 
+  }
+  
+  // A soft, slate-leaning steel blue (low harshness, distinct but readable)
+  em {
+    color: #2e5b82; 
+  }
+}
+
+// --- DARK MODE CONFIGURATION ---
+:root[data-theme="dark"] {
+  // A softer, slightly desaturated coral-rust (glows gently without blinding)
+  strong {
+    color: #e07a5f; 
+  }
+  
+  // A muted, calm pastel-slate blue (restful for the eyes at night)
+  em {
+    color: #81a1c1; 
+  }
+}
