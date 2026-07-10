@@ -2,6 +2,9 @@
 title: RHINELAB Advanced Research Laboratory - Core Documentation
 author: Fujimiya Amane, (Bui Gia Khanh) RHINE@CAD Central Administration
 description: The main structural gatekeeper of the laboratory function. Don't worry, nothing happens here quite much.
+tags:
+  - Administration
+  - Core
 ---
 ## Welcome to RHINELAB
 
@@ -9,6 +12,7 @@ This is the main page of the **RHINELAB-RINALAB laboratory documentation**, so c
 
 If you want quick information, you can see [[RL.2. Laboratory Structure]] as the particular inquiry section, [[UNIG - Named Laboratory]] for different laboratories in existence of RHINELAB, and [[PL.1. Introduction to the philosophy of RHINELAB]] for the most introduction to the content specified thereof for the philosophy section. For the surface contact information and so on, you can see them in [the frontmatter website](https://rhinelab.netlify.app/), or the more technical [back-end or so website](https://rhinelab-rinalab.github.io/). For planned details and contact, see [[Contact]]. 
 ## Intended contents
+The following are what we are intending this site to hold, in the future or so regardless. 
 1. Foundational resources of the laboratory. 
 2. Logistical denotation and summary of all logistics of the lab. 
 3. Artefacts and working system. 
@@ -37,7 +41,7 @@ The following outlines the general shape and form of typical sitemap. Most of th
 > [!warning] Important classification
 > As of now, under such inquiry thereof the organization and main functional groups under strain of institutional insufficiency of scholars, the organization thereby activated or concentrated, are **RHINE@TAAI** (Theoretical and Applied Artificial Intelligence), **RHINE@MAPR** (Mathematics and Physis Research), **RHINE@LOGIT** (Logistical Infrastructure and Architecture), and **RHINE@MTAIL** (Modelling Theory and Artificial Intelligence, Learning-theoretic) functionals. 
 ### RHINE@CAD - Organization Descriptions
-The majority of them are in *philosophy* and conjectures there be of the laboratory. 
+The majority of them are in *philosophy* and conjectures there be of the laboratory. There is also *organization of the laboratory* for many of its operations and assignments. The section is maintained by `CAD` for much of its operation here and others. 
 #### General information
 1. [[RL.1. Institutional Structure]] - The organizational structural and operational framework of RHINELAB. 
 2. [[RL.2. Laboratory Structure]] - The concurrent operational structure and functional organizational reality of RHINELAB (Currently, we are in *phase I*). 
@@ -50,7 +54,7 @@ The majority of them are in *philosophy* and conjectures there be of the laborat
 9. [[RL.7. Research System]]. 
 10. [[RL.8. Research Activities]]. 
 #### Guideline
-Guidelines are focused on *capable contents*. That is, contents that are of technical details or so bare minimum to present and operate inside the laboratory that is. For further details on such, please inquire the included *specialization documentation* of the matter. 
+Guidelines are focused on *capable contents*. That is, contents that are of technical details or so bare minimum to present and operate inside the laboratory that is. For further details on such, please inquire the included *specialization documentation* of the matter, which would be deployed on separate websites. 
 1. [[Guideline - Core Infrastructure]] - Guideline for core infrastructure of the laboratory functions. 
 2. [[Guideline - How to use GitHub, GitLab, and Git]] - Guideline for technical version control system - `git` and the cloud platforms of GitHub and GitLab [^2]
 3. [[Guideline - How to Use OSF]] - OSF, Open Science Foundation, and many similar platforms of such function, guideline as stated of such. 
@@ -63,6 +67,9 @@ Listing for internal laboratories of the lab.
 #### Logistics
 1. TBH
 #### Philosophy and Institutional Baseline
-1. TBH
+1. [[PL.1. Introduction to the philosophy of RHINELAB]]. 
+2. 
+## Donation and financial support
+For donations and support, 
 
 [^2]: Because of the generality and sufficient universality on technical standard of version control system, it is wise to see for even `Codeberg` and `Gitea`, such would still use and utilize the foundational infrastructure on backend of `git`, even if to say it allows for many reconfigured and flavoured version of said terms. As such, one of the many ways to utilize this fundamental function, such is to reduce burden on logistical systems, is to provide a lessen achievement of content in such way of learning the core infrastructure of RHINELAB. And for reference, `Gitea` is self-hosted. 

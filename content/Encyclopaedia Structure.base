@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.ext != ".md"
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.backlinks
+      - author
+      - description
+      - tags
+      - title
+      - field
+    sort: []
+  - type: cards
+    name: Configuration
+    cardSize: 240
+    image: note.tags
