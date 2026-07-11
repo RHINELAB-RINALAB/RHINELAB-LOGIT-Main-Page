@@ -32,6 +32,11 @@ Bui Gia Khanh - Director of Philosophy Domains. [[M01. Bui Gia Khanh]].
 Ha Thi Thuy Linh - Director of Nuclear Science Domains. [[M08. Ha Thi Thuy Linh]]. 
 
 Tran Hoang Minh - Director of Neuroscience Domains. [[M09. Tran Hoang Minh]]. 
+
+## Director of Philosophy and Social Science
+This is the side of *social science*, philosophy, and typical subjects under consideration of the same category of abstract thought. This also include literature. 
+
+Pham Khue Anh - Director of Social Sciences, Philosophy and Literature Research. 
 ### Laboratory Director
 The following lists assignments of *core laboratory directors*, of **Core Research Laboratory** (ONIG). 
 #### ONIG-01 LOGIT (Logistical Maintenance and Operational Laboratory)
