@@ -41,9 +41,9 @@ The following outlines the general shape and form of typical sitemap. Most of th
 > [!warning] Important classification
 > As of now, under such inquiry thereof the organization and main functional groups under strain of institutional insufficiency of scholars, the organization thereby activated or concentrated, are **RHINE@TAAI** (Theoretical and Applied Artificial Intelligence), **RHINE@MAPR** (Mathematics and Physis Research), **RHINE@LOGIT** (Logistical Infrastructure and Architecture), and **RHINE@MTAIL** (Modelling Theory and Artificial Intelligence, Learning-theoretic) functionals. 
 ### RHINE@CAD - Organization Descriptions
-The majority of them are in *philosophy* and conjectures there be of the laboratory. There is also *organization of the laboratory* for many of its operations and assignments. The section is maintained by `CAD` for much of its operation here and others. 
+The majority of them are in *philosophy* and conjectures there be of the laboratory. There is also *organization of the laboratory* for many of its operations and assignments. The section is maintained by `CAD` for much of its operation here and others. You can see the general encyclopaedia at [[Encyclopaedia Structure.base|Encyclopaedia Structure]]. 
 #### General information
-1. [[RL.1. Institutional Structure]] - The organizational structural and operational framework of RHINELAB. 
+1. [[RL.1. Institutional Structure]] - The organizational structural and operational framework of RHINELAB. Roles and partitions thereof.  
 2. [[RL.2. Laboratory Structure]] - The concurrent operational structure and functional organizational reality of RHINELAB (Currently, we are in *phase I*). 
 3. [[RL.2.1. Domain, Field, and Foundation]]. 
 4. [[RL.3. Members and Directorates]]. 
@@ -64,12 +64,13 @@ Listing for internal laboratories of the lab.
 2. [[ONIG Operational Group]] - **General (Academic) Research Group** classification system. 
 3. [[SNIG Operational Group]] - **Special (Academic) Research Group** classification system.
 4. [[ANIG Operational Group]] - **Abstract (Academic) Research Group** classification system.
-#### Logistics
+## RHINE@LOGIT Logistics
+Logistic is the most contingent specification of the laboratory. That is why, for the majority of the time, the following up 
 1. TBH
 #### Philosophy and Institutional Baseline
 1. [[PL.1. Introduction to the philosophy of RHINELAB]]. 
 2. 
 ## Donation and financial support
-For donations and support, 
+For donations and support, [[Funding and Donation]] outline somewhat the possible request and support scheme that would be available for receiving fundings and so on. Since we are a small group, we mainly work within the constraint of management minimality i.e. funds will be handled to specific founder's financial account. 
 
 [^2]: Because of the generality and sufficient universality on technical standard of version control system, it is wise to see for even `Codeberg` and `Gitea`, such would still use and utilize the foundational infrastructure on backend of `git`, even if to say it allows for many reconfigured and flavoured version of said terms. As such, one of the many ways to utilize this fundamental function, such is to reduce burden on logistical systems, is to provide a lessen achievement of content in such way of learning the core infrastructure of RHINELAB. And for reference, `Gitea` is self-hosted. 
