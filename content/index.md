@@ -10,7 +10,7 @@ tags:
 
 This is the main page of the **RHINELAB-RINALAB laboratory documentation**, so customarily so, a welcome is said to be needed. Welcome to the main page. I am sure it would be very much helpful, planned of sort, to member of the laboratory itself in the future, as both a *model* of operation, and also a *central piece* of studies, information configuration, and bulletin of sort. The main page here works and function for this entire website, as the fundamental *repository* of which we will configure most of the expected contents, and functionalities of this site.
 
-If you want quick information, you can see [[RL.2. Laboratory Structure]] as the particular inquiry section, [[UNIG - Named Laboratory]] for different laboratories in existence of RHINELAB, and [[PL.1. Introduction to the philosophy of RHINELAB]] for the most introduction to the content specified thereof for the philosophy section. For the surface contact information and so on, you can see them in [the frontmatter website](https://rhinelab.netlify.app/), or the more technical [back-end or so website](https://rhinelab-rinalab.github.io/). For planned details and contact, see [[Contact]]. 
+If you want quick information, you can see [[RL.2. Laboratory Structure]] as the particular inquiry section, [[UNIG - Named Laboratory]] for different laboratories in existence of RHINELAB, and [[PL.Intro. Introduction to the philosophy of RHINELAB]] for the most introduction to the content specified thereof for the philosophy section. For the surface contact information and so on, you can see them in [the frontmatter website](https://rhinelab.netlify.app/), or the more technical [back-end or so website](https://rhinelab-rinalab.github.io/). For planned details and contact, see [[Contact]]. 
 ## Intended contents
 The following are what we are intending this site to hold, in the future or so regardless. 
 1. Foundational resources of the laboratory. 
@@ -68,7 +68,7 @@ Listing for internal laboratories of the lab.
 Logistic is the most contingent specification of the laboratory. That is why, for the majority of the time, the following up 
 1. TBH
 #### Philosophy and Institutional Baseline
-1. [[PL.1. Introduction to the philosophy of RHINELAB]]. 
+1. [[PL.Intro. Introduction to the philosophy of RHINELAB]]. 
 2. 
 ## Donation and financial support
 For donations and support, [[Funding and Donation]] outline somewhat the possible request and support scheme that would be available for receiving fundings and so on. Since we are a small group, we mainly work within the constraint of management minimality i.e. funds will be handled to specific founder's financial account. 

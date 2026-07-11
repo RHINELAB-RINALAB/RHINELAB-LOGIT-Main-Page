@@ -5,6 +5,8 @@ description: Structures of the laboratory on the scholar and personnel side.
 ---
 We have quite plentiful of people in the laboratory, hence there exists the need to provide a ledger of everyone, and any particular alumni, so to speak, past researcher, and collaborators of the laboratory and institution thereof, both present and future. 
 ___
+# Planning of operational echelon
+Scheduling on echelon formation of members for RHINELAB is and would be of the following. We note that the system is minimal by default, with maybe, perhaps, many roles specification, but a relatively flat hierarchy. 
 ## RHINELAB - Upper Echelon Schedule
 Internally of RHINELAB, we have the following organization of personnel at the top level, that is, the *directorship system* and leadership teams. Insofar, the system itself is provisional, as the system of directorship itself be particularity thereof, with its share of many problems and fallacy.
 
@@ -26,6 +28,6 @@ Under such, we will have the following set of *mid-level roles and discrete resp
 | Research Trainee      | This is the *entry evaluation area* where most of the operations on training, accumulating and assessment of sufficient qualification are conducted. It is also where you will land, after applying for the laboratory and under training pipeline. | `NA`                                                                           | Nominally Tier V, that said, this role would be where most *support on infrastructure* would be dedicated of, both in work and so on. So, somewhat closer to Tier IV, with additional credential creation and so on be possible on great scheme for Research Trainee.                                              |
 
 Those would be the **central core** of what RHINELAB will be consisted of. That is, we are to say the obvious $\mathcal{N}(\sigma,\mu)$ distribution fact - most of the operations and compositions of the laboratory would be of regular members, of the **scholar**, thus they would have to be inquired and taken care of, with grace, and with consideration. 
-
-
+# Scope and exercise of power
+TBH
 

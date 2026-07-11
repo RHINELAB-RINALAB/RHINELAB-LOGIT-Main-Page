@@ -1,5 +1,9 @@
 ---
 title: Introduction to Philosophy and Pillars of RHINELAB
+tags:
+  - Philosophy
+  - Knowledge
+description: Introduction to the philosophy section of RHINELAB.
 ---
 > [!important] Source
 > For most of its contents, see `DOC-OR-05v3`, latest version on [OSF](https://osf.io/n8agh/), i.e. the **Pillar and Philosophical Foundation** of RHINELAB. 
@@ -13,7 +17,7 @@ I suggest, at the very least, members of RHINELAB to read of what will then go a
 # Contents
 List of contents and deliverables. 
 ## I. The philosophy of archival
-
+[[PL.I.1. The philosophy of archival]] - main contents and documentation about this line of thought. 
 ## II. The philosophy of laboratory functions and evolution
-
+[[PL.II.1. The philosophy of laboratory functions and evolution]].
 ## III. The philosophy of laboratory 
