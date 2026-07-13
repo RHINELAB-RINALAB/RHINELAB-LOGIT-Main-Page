@@ -54,7 +54,7 @@ Logistic branch of the `UNIG` system. They handle the *theory of institutional l
 ### UNIG-03, GTPR (General Theoretical and Principal Resolution Laboratory)
 They are the *general theoretical research branch*. This ranges from *institutional theory* research, *functional laboratory research*, template of the institutional and various form of operational core, code of conduct, communication protocol in academic research, philosophical grounding and debate on institutional workings, and more of non-institutional works, for example, *philosophy of science* and *philosophy of scientific research*, and so on. This group is currently *non-operational*.
 ## C. Concentrated Domains and Departments (RHINE@CD/D)
-This organization is one-step lower than the previous one. 
+This organization is one-step lower than the previous one. The philosophy here is rather, no pun intended, *concentrated*, and much
 
 [^1]: Here, humanitarian concentration strictly means, not extended to otherwise, *human-centric configuration and assessment* of a particular activity hub in which human-to-human interaction is classified as *high-intensity*, and as also there exists both polar of the *separability condition*, and *humanizing condition*. 
 
