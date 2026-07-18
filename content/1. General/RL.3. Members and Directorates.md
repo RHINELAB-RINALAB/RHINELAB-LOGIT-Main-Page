@@ -5,8 +5,10 @@ tags:
   - Administration
   - List
 ---
-## Abstract
-Since we need to organize people, memberships and thereof, this is the place we will be taking and handling personnel and so on, for the time being as a low-cost, high-latency and archival mode of logging. 
+# Abstract
+Since we need to organize people, memberships and thereof, this is the place we will be taking and handling personnel and so on, for the time being as a low-cost, high-latency and archival mode of **logging**. if we do have more people and system in the future, this page will be rather obsolete and reserved for *archival purpose*. 
+# Structure
+Most of the structure of the note below would be 
 ___
 ## Principal Director
 Bui Gia Khanh (Fujimiya Amane) - Laboratory Leader, Founder, organizer and Directorship. Main page at [[M01. Bui Gia Khanh]]. 
