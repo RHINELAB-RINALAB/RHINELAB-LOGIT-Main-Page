@@ -9,8 +9,10 @@ At the current state, the laboratory structure can be said to resemble closed-st
 ___
 # Abstract
 Based on the structural evolution taken thereof, there is the need to provide laboratory structure, and how everything is formed of the current structure, for clarity and navigation. This document and page is dedicated to explain such. 
-## Aware version
+## Denoting version
 The document is currently managed and maintained in **version Phase I**, i.e. continual update in the realm and domain of Phase I of the coverage of the laboratory. Further specification and information would be added in later version, if such is permitted, under the current form or not given *no information are to be deleted*, such is to only added and requisitioned elsewhere, as noted. 
+> [!attention] Permission
+> As of current, laboratory organization can *only be changed* by Principal Director. 
 ___
 # I. Laboratory components
 > Please also refer to `DOC-OR(-PROP)-08` for this specific purpose, and origin of the design template. For many sections of which, 

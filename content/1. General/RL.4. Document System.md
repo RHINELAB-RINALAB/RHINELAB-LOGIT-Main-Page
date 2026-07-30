@@ -1,5 +1,5 @@
 ---
-title: The documentation system
+title: RL.4. Documentation Systems
 tags:
   - Administration
   - Logistics
@@ -12,3 +12,5 @@ Any artefacts, specific types of materials in consideration, is the product and 
 
 Any project, any structures, any parts of RHINELAB that requires checking, logging, updates and maintenance, and parts of RHINELAB. 
 ___
+# B. Structures of the Documentation System
+For now, we come to the structural description of the document format. Because of its role to control readable and writable contents, 

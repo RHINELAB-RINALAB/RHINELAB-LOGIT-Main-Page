@@ -68,6 +68,10 @@
                 "code": {
                   "type": "string",
                   "description": "Font family for code"
+                },
+                "title": {
+                  "type": "string",
+                  "description": "Font family for the title"
                 }
               }
             },

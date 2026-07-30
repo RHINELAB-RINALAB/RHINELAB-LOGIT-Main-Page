@@ -18,8 +18,6 @@ Bui Gia Khanh (Fujimiya Amane) - Laboratory Leader, Founder, organizer and Direc
 The following a list of uncategorized by domain directors present. We refer the role classification and institutional structure to [[RL.1. Institutional Structure]]. 
 ### Director of Logistics
 Elston Tan is a director, holding position of Co-Founder, Central Administration, Director of Strategy & Operations (DRC-SO). Main page in [[M02. Elston Tan]]. 
-### Tran Minh Vu
-Tran Minh Vu is a director, holding position of Co-Founder, Director of Logistical Support (DRC-LS). [[M03. Tran Minh Vu]].
 ### Director of Science
 The following are *director of science*, those that hold position related to scientific research, academic knowledge and pedagogical resources, archive of knowledge and information of the laboratory. They are the *bulk* of main operational system. 
 ### Tran Cong Long
@@ -34,8 +32,6 @@ Bui Gia Khanh is a director, holding position of Director of Philosophy Domains.
 Ha Thi Thuy Linh is a director, holding position of Director of Nuclear Science Domains. [[M08. Ha Thi Thuy Linh]]. 
 ### Tran Ngoc Minh 
 Tran Ngoc Minh is a director, holding position of Director of Neuroscience Domains. [[M09. Tran Ngoc Minh]]. 
-### Do Nam Anh (Trial)
-Do Nam Anh is a **trial** director[^1], holding position of Trial Director of Artificial Intelligence Domains. [[M05. Do Nam Anh]]. 
 ## Director of Philosophy and Social Science
 This is the side of *social science*, philosophy, and typical subjects under consideration of the same category of abstract thought. This also include literature. 
 ### Pham Khue Anh
@@ -48,21 +44,26 @@ Bui Gia Khanh - Director of Laboratory. [[M01. Bui Gia Khanh]].
 Bui Gia Khanh - Directory of Laboratory. [[M01. Bui Gia Khanh]]. 
 ___
 ## Laboratory Full Member (RHINELAB-MEM)
-1. Le Minh Anh (RHINE@MAPR) - [[M10. Le Minh Anh]].
-2. Duc Anh Nguyen (RHINE@EPEFORM) - [[M11. Duc Anh Nguyen]].
-3. Tuan Le Hoang (RHINE@EPEFORM) - [[M12. Tuan Le Hoang]].
-4. Minh Minh (please give me your name) - (RHINE@TAAI) - [[M13. Minh Minh]].
-5. Daud Shahbaz (Semi-Director of Computer Science Domain) - (RHINE@CSR) - [[M14. Daud Shahbaz]].
-6. Luong Van Tam. (RHINE@MAPR, RHINE@MTAIL) - [[M15. Luong Van Tam]].
-7. Nguyen Bao Nhung. (RHINE@TAAI) - [[M16. Nguyen Bao Nhung]].
-8. Ngo Quang Huy. (RHINE@MAPR) - [[M17. Ngo Quang Huy]].
-9. Nguyen Thu Trang. (RHINE@MAPR) - [[M18. Nguyen Thu Trang]].
-10. Do Quang Binh. (RHINE@MAPR) - [[M19. Do Quang Binh]].
-11. Dam Ngoc Bao Lam. (RHINE@MAPR) - [[M20. Dam Ngoc Bao Lam]].
-12. Nghia Trinh. (RHINE@MAPR) - [[M21. Nghia Trinh]].
-13. Van Ly. (RHINE@MAPR) - [[M22. Van Ly]].
-14. Pham Tran Hoang Anh. (RHINE@CSR) - [[M23. Pham Tran Hoang Anh]].
-15. Nguyen Hoang Anh. (RHINE@TAAI) - [[M24. Nguyen Hoang Anh]].
+> [!important] New member
+> New member or requisition is being added as member of RHINELAB. As current (31/07/2026), Vu Tran Minh, Do Nam Anh are new RHINELAB member-tier components. 
+
+1. Vu Tran Minh (RHINE@MAPR) - [[M03. Tran Minh Vu]]. 
+2. Do Nam Anh (RHINE@TAAI) - [[M05. Do Nam Anh]]. 
+3. Le Minh Anh (RHINE@MAPR) - [[M10. Le Minh Anh]].
+4. Duc Anh Nguyen (RHINE@EPEFORM) - [[M11. Duc Anh Nguyen]].
+5. Tuan Le Hoang (RHINE@EPEFORM) - [[M12. Tuan Le Hoang]].
+6. Minh Minh (please give me your name) - (RHINE@TAAI) - [[M13. Minh Minh]].
+7. Daud Shahbaz (Semi-Director of Computer Science Domain) - (RHINE@CSR) - [[M14. Daud Shahbaz]].
+8. Luong Van Tam. (RHINE@MAPR, RHINE@MTAIL) - [[M15. Luong Van Tam]].
+9. Nguyen Bao Nhung. (RHINE@TAAI) - [[M16. Nguyen Bao Nhung]].
+10. Ngo Quang Huy. (RHINE@MAPR) - [[M17. Ngo Quang Huy]].
+11. Nguyen Thu Trang. (RHINE@MAPR) - [[M18. Nguyen Thu Trang]].
+12. Do Quang Binh. (RHINE@MAPR) - [[M19. Do Quang Binh]].
+13. Dam Ngoc Bao Lam. (RHINE@MAPR) - [[M20. Dam Ngoc Bao Lam]].
+14. Nghia Trinh. (RHINE@MAPR) - [[M21. Nghia Trinh]].
+15. Van Ly. (RHINE@MAPR) - [[M22. Van Ly]].
+16. Pham Tran Hoang Anh. (RHINE@CSR) - [[M23. Pham Tran Hoang Anh]].
+17. Nguyen Hoang Anh. (RHINE@TAAI) - [[M24. Nguyen Hoang Anh]].
 ## Laboratory Half-Member (RHINE-TRAINEE)
 The following are trainee, i.e. *semi-membership*, under consideration and gradual accumulation of entry prerequisite. In simpler words, he 
 1. Hieu Do. [[M25. Hieu Do]]. 

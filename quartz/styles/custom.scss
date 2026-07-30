@@ -1,45 +1,196 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ==========================================
+// 1. TWEAKABLE CONFIGURATION PARAMETERS
+// ==========================================
+:root {
+  // Typography Scaling
+  --base-font-size: 87.5%;     // Base size for mobile/tablet (shrinks UI for density)
+  --desktop-font-size: 90%;    // Slight bump for large monitors (was 105%, lowered for density)
+  --content-line-height: 1.45; // Tightened line-height for academic prose
 
-// quartz/styles/custom.scss
+  // Brutalist / Encyclopedic Structure
+  --brutalist-radius: 0px;     // Absolute sharp corners
+  --border-thickness: 1px;     // Harsh structural borders
+  --wiki-max-width: 88vw;      // Expands the page to fill the screen like MediaWiki
+  --sidebar-width: 400px;      // Rigid encyclopedic sidebar width
+}
+
+// ==========================================
+// 2. THEME & TYPOGRAPHY OVERRIDES
+// ==========================================
+
+// --- LIGHT MODE ---
+:root[data-theme="light"] {
+  // A muted, earthy burnt orange 
+  strong { color: #c25927; }
+  // A soft, slate-leaning steel blue 
+  em { color: #2e5b82; }
+
+  // Structural Colors (MediaWiki Light)
+  --page-bg: #f6f6f6;          // Outer canvas background
+  --content-bg: #ffffff;       // Pure white reading column
+  --border-color: #a2a9b1;     // Classic Wikipedia gray border
+}
+
+// --- DARK MODE ---
+:root[data-theme="dark"] {
+  // A softer, slightly desaturated coral-rust 
+  strong { color: #e07a5f; }
+  // A muted, calm pastel-slate blue 
+  em { color: #81a1c1; }
+
+  // Structural Colors (IBM Carbon Dark)
+  --page-bg: #101010;          // Outer canvas background
+  --content-bg: #161616;       // Central reading column
+  //--border-color: #404040;     // Harsh dark gray border
+}
+
+// ==========================================
+// 3. GLOBAL SCALING (Resolving Conflicts)
+// ==========================================
 
 html {
-  // Quartz's default baseline is typically 16px (100%). 
-  // Bumping this scales all text elements proportionally.
-  font-size: 105%; 
+  font-size: var(--base-font-size); 
 
-  // Optional: If you only want to target desktop layouts, wrap it in a media query
   @media all and (min-width: 1200px) {
-    font-size: 110%;
-  }
-}
-// ==========================================
-// Quartz Custom Typography Colors
-// ==========================================
-
-// --- LIGHT MODE CONFIGURATION ---
-:root[data-theme="light"] {
-  // A muted, earthy burnt orange (gentle but deep enough for light mode readability)
-  strong {
-    color: #c25927; 
-  }
-  
-  // A soft, slate-leaning steel blue (low harshness, distinct but readable)
-  em {
-    color: #2e5b82; 
+    font-size: var(--desktop-font-size);
   }
 }
 
-// --- DARK MODE CONFIGURATION ---
-:root[data-theme="dark"] {
-  // A softer, slightly desaturated coral-rust (glows gently without blinding)
-  strong {
-    color: #e07a5f; 
-  }
-  
-  // A muted, calm pastel-slate blue (restful for the eyes at night)
-  em {
-    color: #81a1c1; 
-  }
+body {
+  line-height: var(--content-line-height); 
+  letter-spacing: -0.01em;
+  font-family: var(--bodyFont);
+  background-color: var(--page-bg);
 }
+
+// ==========================================
+// 4. ENCYCLOPEDIC LAYOUT (MEDIAWIKI / IBM)
+// ==========================================
+
+/* Expand wrapper to fill the viewport */
+.page {
+  max-width: var(--wiki-max-width); 
+  margin: 1 auto;
+  padding: 1;
+  display: flex;
+  gap: 0;
+}
+
+/* The Central Content Column */
+.center {
+  max-width: 1200px;
+  //flex: 1; /* Allow content to stretch */
+  background-color: var(--content-bg);
+  padding: 2.5rem 2.5rem;
+  border-left: var(--border-thickness) solid var(--border-color);
+  border-right: var(--border-thickness) solid var(--border-color);
+  min-height: 100vh;
+}
+
+/* Brutalist UI Flattening */
+* {
+  border-radius: var(--brutalist-radius) !important;
+  box-shadow: none !important;
+}
+
+hr {
+  border-top: var(--border-thickness) solid var(--border-color);
+  margin: 1rem 1px; // Adds a 1px inset margin on the left and right edges
+}
+// ==========================================
+// 5. COMPACT INTERFACE MODULES
+// ==========================================
+
+/* Isolate interface fonts from body prose */
+.sidebar, 
+.popover, 
+.sidenote, 
+article aside,
+.breadcrumb-container,
+.content-meta {
+  font-family: var(--headerFont); /* Reusing the header sans-serif for UI */
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+/* Rigid Sidebar Constraints */
+.sidebar {
+  width: var(--sidebar-width);
+  padding: 3rem;
+  background-color: var(--page-bg);
+}
+
+/* Packed Metadata Modules (Explorer, Graph, Backlinks) */
+.explorer, .graph, .backlinks, .toc {
+  margin-bottom: 1rem;
+  padding: 1.75rem;
+  background-color: var(--content-bg);
+  border: var(--border-thickness) solid var(--border-color);
+}
+
+.explorer h3, .toc h3, .backlinks h3 {
+  margin-top: 1;
+  border-bottom: var(--border-thickness) solid var(--border-color);
+  padding-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  color: var(--darkgray);
+}
+
+// ==========================================
+// 6. DENSE TYPOGRAPHY HIERARCHY
+// ==========================================
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+h1 { 
+  font-size: 1.75rem; 
+  border-bottom: var(--border-thickness) solid var(--border-color); 
+  padding-bottom: 0.25rem; 
+  margin-bottom: 0.75rem;
+}
+h2 { 
+  font-size: 1.35rem; 
+  border-bottom: var(--border-thickness) dashed var(--border-color); 
+  padding-bottom: 0.15rem;
+}
+h3 { font-size: 1.05rem; }
+
+// ==========================================
+// 7. TERMINAL CODE & PARAGRAPH DENSITY
+// ==========================================
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  text-align: justify; /* Formal academic block alignment */
+}
+
+/* Terminal-style monospace environments */
+code, pre {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  border: var(--border-thickness) solid var(--border-color);
+  background-color: var(--page-bg);
+}
+
+pre > code {
+  padding: 0.4rem 0.6rem;
+  display: block;
+}
+
+/* Compact blockquotes functioning as infoboxes 
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid var(--border-color);
+  background-color: var(--page-bg);
+  font-size: 0.9rem;
+}*/

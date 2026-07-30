@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: RHINELAB
+  pageTitle: RHINELAB Laboratory
   pageTitleSuffix: "Advanced Research Laboratory"
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rhinelab.netlify.app
+  baseUrl: wiki.rhinelaboratory.org
   ignorePatterns:
     - private
     - templates
@@ -16,9 +16,10 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      #title: "Newsreader"
+      header: "Newsreader"
+      body: "Literata"
+      code: "IBM Plex Mono"
     colors:
       lightMode:
         light: "#faf8f8"
@@ -100,6 +101,10 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      header: "Newsreader"
+      body: "Literata"
+      code: "JetBrains Mono"
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -125,6 +130,11 @@ plugins:
     enabled: true
   - source: github:quartz-community/tag-page
     enabled: true
+  - source:
+      name: quartz-themes
+      repo: "https://github.com/saberzero1/quartz-themes.git"
+      subdir: plugin
+    enabled: false
   - source: github:quartz-community/explorer
     enabled: true
     layout:
@@ -141,7 +151,7 @@ plugins:
         repelForce: 0.5
         centerForce: 0.3
         linkDistance: 30
-        fontSize: 0.6
+        fontSize: 0.4
         opacityScale: 1
         removeTags: []
         showTags: true
@@ -154,7 +164,7 @@ plugins:
         repelForce: 0.5
         centerForce: 0.3
         linkDistance: 30
-        fontSize: 0.6
+        fontSize: 0.4
         opacityScale: 1
         removeTags: []
         showTags: true
@@ -293,7 +303,7 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content: {This is not that bad.}
     folder:
       exclude:
         - reader-mode
